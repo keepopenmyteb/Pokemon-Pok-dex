@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>JS 에러 테스트</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    #output {
+      margin-top: 20px;
+      padding: 10px;
+      background-color: #f4f4f4;
+      border: 1px solid #ccc;
+      white-space: pre-wrap;
+    }
+  </style>
+</head>
+<body>
+  <h1>자바스크립트 에러 테스트</h1>
+
+  <p>콘솔에 찍히는 에러 메시지는 F12 개발자 도구의 "Console" 탭에서도 볼 수 있어요.</p>
+
+  <div id="output">출력 영역</div>
+
+  <script>
+    const output = document.getElementById('output');
+
+    try {
+      // ⛔ 여기에 테스트할 JS 코드를 작성하세요
+      const fruits = ['apple', 'banana', 'orange'];
+      fruits.forEach((fruit) => {
+        conose.log(fruit); // 일부러 오타 넣은 코드 (console → conosle)
+      });
+    } catch (error) {
+      // 에러가 발생하면 여기로 잡힘
+      output.textContent = '⚠️ 오류 발생: ' + error.message;
+      console.error(error); // 콘솔에도 출력
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>채팅방 만들기</title>
+    <link href="채팅방만들기.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <main class="chat-screen">
+            <section class="chat-screen__bar">
+            <div class="user">
+            <div class="user__column" style="display: flex; align-items: center;">
+  <span style="font-size: 24px; margin-right: 8px; cursor: pointer;">&#60;</span>
+  <div class="user__pic"></div>
+</div>
+            <div class="user__column">
+                <p class="user__nick">오즈코딩스쿨</p>
+                <p class="user__count">Back on 11:00 AM</p>
+            </div>
+            </div>
+            </section>
+           
+            <div class="text-screen">
+            <div class="chat-screen-harder">
+            <p class="chat-screen-harder-text">🔊 문의해 주시는 교육 과정명을 꼭 알려주세요:)</p>
+            </div>
+
+            
+            <div class="icon"></div>
+            <div class="icon-text">
+            <p class="icon-title">Contact 오즈코딩스쿨</p>
+            <p class="hours-text">See business hours ></p>
+            <p class="date-text">September 2 10:10PM</p>
+
+            </div>
+            
+
+           <div class="text" style="display: flex; align-items: end;">
+                <div class="text_icon"></div>
+                <div class="text">
+                    <p class="nic">오즈코딩스쿨</p>
+                    <div class="text_bar">
+                    <p>안녕하세요!<br>
+                        궁금한 게 있으면 편하게 물어봐주세요👀 
+                        문의해 주시는 <span class="bold-text">교육과정명</span>
+                        을 꼭 알려주세요:)
+                    </p>
+                    </div>
+                    <p class="nic">10:00 PM</p>
+                </div>
+            </div>
+
+                <div class="me">
+            <div class="me_text_bar">
+                <p>안녕하세요 :)<br>프론트엔드 과정 문의하러 왔어요!</p>
+            </div>
+            <p class="me_time"><br>10:01 PM</p>
+        </div>
+
+        </main>
+        <form class="chat-form">
+             <section class="chat-form__field">
+               <textarea class="chat-form__msg"></textarea>
+             <input type="submit" value=">" class="chat-form__bt"> 
+            </section> 
+        </form>
+    </div>
+</body>
+</html>

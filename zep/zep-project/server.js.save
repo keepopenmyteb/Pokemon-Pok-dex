@@ -1,0 +1,38 @@
+// server.js
+const express = require('express');
+const axios = require('axios');
+const app = express();
+const port = 3000;
+
+// 관리자 API Key (실제로는 관리자에게 받아야 합니다)
+const ADMIN_API_KEY = 'YOUR_ADMIN_API_KEY'; // 여기에 관리자 API Key를 입력하세요.
+const MAP_HASH_ID = 'gGZQPN';
+
+app.get('/map-info', async (req, res) => {
+  try {
+    const response = await axios.get(`https://zep.us/api/v1/maps/${MAP_HASH_ID}`, {
+      headers: {
+        'Authorization': `Bearer ${ADMIN_API_KEY}`
+      }
+    });
+    res.json(response.data);  // ZEP API의 응답 데이터를 클라이언트에 전달합니다.
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+app.listen(port, () => {
+  console.log(`ZEP Proxy Server running at http://localhost:${port}`);
+});
+
+
+
+node server.js
+
+x
+x
+x
+x
+^x
+
+

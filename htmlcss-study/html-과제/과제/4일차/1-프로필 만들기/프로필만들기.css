@@ -1,0 +1,41 @@
+
+html{
+    background-color: rgb(0, 0, 0);
+}
+
+body{
+    width: 640px;
+    margin: auto; 
+    color: rgb(255, 255, 255);
+    font-family: "Bagel Fat One", system-ui;
+}
+
+h1{
+    font-size: 48px;
+}
+
+.introduce {
+  display: flex;
+  align-items: center; 
+  gap: 20px;           
+  max-width: 800px;
+  margin: 30px auto;
+}
+
+.introduce img {
+  width: 308px;
+  height: 463px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.introduce .text {
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 400px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}

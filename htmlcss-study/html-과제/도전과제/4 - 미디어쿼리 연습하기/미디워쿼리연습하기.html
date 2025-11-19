@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>미디어쿼리 연습하기</title>
+  <link rel="stylesheet" href="미디어쿼리연습하기.css" />
+</head>
+<body>
+  <header>
+    <div class="header">
+      <div class="iner_head">
+        <div class="logo">로고</div>
+        <div class="hamburger">&#9776;</div>
+        <div class="logo_menu">
+          <div class="menu_item">
+            메뉴
+            <div class="submenu">
+              <div class="submenu_item">하위메뉴</div>
+              <div class="submenu_item">하위메뉴</div>
+              <div class="submenu_item">하위메뉴</div>
+            </div>
+          </div>
+          <div class="menu_item">
+            메뉴
+            <div class="submenu">
+              <div class="submenu_item">하위메뉴</div>
+              <div class="submenu_item">하위메뉴</div>
+              <div class="submenu_item">하위메뉴</div>
+            </div>
+          </div>
+          <div class="menu_item">
+            메뉴
+            <div class="submenu">
+              <div class="submenu_item">하위메뉴</div>
+              <div class="submenu_item">하위메뉴</div>
+              <div class="submenu_item">하위메뉴</div>
+            </div>
+          </div>
+          <div class="menu_item">
+            메뉴
+            <div class="submenu">
+              <div class="submenu_item">하위메뉴</div>
+              <div class="submenu_item">하위메뉴</div>
+              <div class="submenu_item">하위메뉴</div>
+            </div>
+          </div>
+          <div class="menu_item">
+            메뉴
+            <div class="submenu">
+              <div class="submenu_item">하위메뉴</div>
+              <div class="submenu_item">하위메뉴</div>
+              <div class="submenu_item">하위메뉴</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <div class="menu"></div>
+  </nav>
+
+  <div class="section">
+    <div class="section_body">
+      <div class="box skyblue"></div>
+      <div class="box skyblue"></div>
+      <div class="box skyblue"></div>
+      <div class="box purple"></div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer"></div>
+  </footer>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      const hamburger = document.querySelector(".hamburger");
+      const logoMenu = document.querySelector(".logo_menu");
+
+      hamburger.addEventListener("click", function () {
+        logoMenu.classList.toggle("active");
+      });
+    });
+  </script>
+</body>
+</html>

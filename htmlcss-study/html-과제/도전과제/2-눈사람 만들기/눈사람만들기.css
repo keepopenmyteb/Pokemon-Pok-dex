@@ -1,0 +1,160 @@
+        html{
+            background-color:  rgb(211, 227, 253);
+        }
+
+         .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;  
+            height: 100vh;
+            position: relative;
+        }
+
+        .hat {
+            position: relative;
+            right: 90px;
+            transform: rotate(10deg);
+        }
+
+        .hat1 {
+            position: absolute;
+            left: 60px;
+            bottom: 30px;
+            width: 70px;
+            height: 90px;
+            background-color: black;
+            border-radius: 10px;
+            margin-top: -30px;
+        }
+
+        .hat2 {
+            position: absolute;
+            left: 50%;
+            transform: translateX(10%);
+            width: 150px;
+            height: 15px;
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            background-color: black;
+            margin-top: -40px;
+        }
+
+
+        .face {
+            position: relative; 
+        }
+
+        .eye1 {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            left: 10px;
+            border-radius: 50%;
+            background-color: black;
+            margin-top: 15px;
+        }
+
+        .eye2 {
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            right: 15px;
+            border-radius: 50%;
+            background-color: black;
+            margin-top: 15px;
+        }
+
+        .mouth {
+            position: absolute;
+            width: 30px;
+            height: 10px;
+            right: 10px;
+            border-bottom-left-radius: 10px;
+            background-color: rgb(226, 174, 126);
+            margin-top: 35px;
+        }
+
+        
+        .arm1 {
+            position: absolute;
+            width: 100px;
+            height: 5px;
+            left: 500px;
+            background-color: rgb(132, 121, 112);
+            top: 300px;
+            transform: rotate(30deg);
+        }
+
+
+          .arm2 {
+            position: absolute;
+            width: 100px;
+            height: 5px;
+            right: 500px;
+            background-color: rgb(132, 121, 112);
+            top: 300px;
+            transform: rotate(-30deg);
+        }
+
+    
+        .button1{
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            right: 45%;
+            border-radius: 50%;
+            background-color: black;
+            margin-top: 25px;
+        }
+
+
+            .button2{
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            right: 45%;
+            border-radius: 50%;
+            background-color: black;
+            margin-top: 50px;
+        }
+
+            .button3{
+            position: absolute;
+            width: 15px;
+            height: 15px;
+            right: 45%;
+            border-radius: 50%;
+            background-color: black;
+            margin-top: 75px;
+        }
+
+
+
+
+        .snow1 {
+            width: 100px;
+            height: 100px;
+            left: 20px;
+            border-radius: 50%;
+            background-color: rgb(246, 246, 246);
+            margin-top: -20px; 
+        
+        }
+
+        .snow2 {
+            position: relative;
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            background-color: rgb(246, 246, 246);
+            margin-top: -20px; 
+        }
+
+        .snow3 {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background-color: rgb(246, 246, 246);
+            margin-top: -20px; 
+        } 

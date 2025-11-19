@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>설문조사 양식</title>
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
+    <style>
+        *{
+            color: #00FFA3;
+            font-family: "Do Hyeon", sans-serif;
+        }
+    </style>
+</head>
+<body style="background-color: black;">
+    <header>
+    <h1>설문조사 양식</h1>
+    <ul>
+    <li><a href="">개인정보</a></li> 
+    <li><a href="">설문 문항</a></li>
+    <li><a href="">기타</a></li>
+    </ul>
+    </header>
+    <main> 
+        <form action="none.com" method="post">
+        <h1>개인정보</h1>
+        <label>이름:</label>
+        <input type="text" name="name">
+        <br>
+        <label>나이:</label>
+        <input type="number" style="width: 50px;" name="number">
+        <br>
+        <label>성별:</label>
+        <select name="gender">
+            <option>남성</option>
+            <option>여성</option>
+        </select>
+        <br>
+        <label>이메일:</label>
+        <input type="email" name="email">
+    <h1>설문 문항</h1>
+    <ul>
+        <li><input type="checkbox" name="sports">스포츠</li>
+        <li><input type="checkbox" name="music">음악</li>
+        <li><input type="checkbox" name="movie">영화</li>
+    </ul>
+    </form>
+    </main>
+    <br>
+    <footer>
+	<nav>
+        <label>피드백:</label>
+        <textarea></textarea>
+	</nav>
+    <button form="제출" name="제출">제출</button>
+    <br>
+    &copy; 2024 설문조사 양식
+    </footer>
+</body>
+</html>

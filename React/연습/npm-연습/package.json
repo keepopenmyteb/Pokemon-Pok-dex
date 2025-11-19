@@ -1,0 +1,21 @@
+{
+  "name": "npm_practice",
+  "version": "1.0.0",
+  "description": "4.5.3",
+  "main": "npm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node npm.js"
+  },
+  "keywords": [
+    "npm",
+    "javascript",
+    "node"
+  ],
+  "author": "OZ Coding, <OZ@OZ.com",
+  "license": "ISC / MIT",
+  "type": "module",
+  "dependencies": {
+    "dayjs": "^1.11.19"
+  }
+}

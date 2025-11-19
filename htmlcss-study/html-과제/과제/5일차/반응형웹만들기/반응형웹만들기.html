@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>회원가입</title>
+    <link rel="stylesheet" href="반응형웹만들기.css"/>
+</head>
+<body>
+  <div class="white-box">
+    <div class="text-center">
+      <h1>회원가입</h1>
+      <br/>
+      <h4>OZ코딩스쿨에 오신것을 환영합니다! 🤗</h4>
+    </div>
+    <br/>
+    
+    <form action="none" method="post">
+      <div class="text-center">
+        <input type="text" id="name" class="input-field" placeholder="이름"/>
+        <br/><br/>
+        <input type="number" id="number" class="input-field" placeholder="전화번호"/>
+        <br/><br/>
+        <input type="email" id="email" class="input-field" placeholder="이메일"/>
+        <br/><br/>
+        <input type="password" id="password" class="input-field" placeholder="비밀번호"/>
+        <br/><br/>
+        <input type="date" id="date" class="input-field"/>
+      </div>
+    </form>
+    <br/>
+
+    <div class="text-center">
+      <input type="radio" name="gender" id="male"/>
+      <label for="male">남자</label>
+      <input type="radio" name="gender" id="female"/>
+      <label for="female">여자</label>
+    </div>
+    <br/>
+
+    <hr class="divider"/>
+    <br/>
+
+    <div class="text-center">
+      <h4>아래 약관에 동의를 눌러주세요</h4>
+      <br>
+    </div>
+
+    <div class="text-center checkbox-item">
+      <div class="checkbox-list">
+        <input type="checkbox" id="term1"/>
+        <label for="term1">
+          [필수] 남과 비교하지 않기: 남과 나를 비교하지 않고 어제의 나와 오늘의 나를 비교하여 얼마나
+          성장했는지 가늠해요.
+        </label>
+        <br/><br/>
+
+        <input type="checkbox" id="term2"/>
+        <label for="term2">
+          [필수] 시간을 투자하기: 시간을 투자하고 노력할 수 있도록 완성도 있고 성취감 있는 결과를 만들어 낼
+          수 있어요.
+        </label>
+        <br/><br/>
+
+        <input type="checkbox" id="term3"/>
+        <label for="term3">
+          [필수] 함께 성장할 동료 만들기: 서로서로 가르쳐주고 배우며 함께할 동료를 만들어보세요.<br/>
+          함께 성장할수록 마지막 프로젝트의 완성도 또한 높아진답니다.
+        </label>
+        <br/><br/>
+
+        <input type="checkbox" id="term4"/>
+        <label for="term4">
+          [필수] 지원 적극 활용하기: 저희 운영진은 여러분을 위해 상시 대기 중!<br/>
+          모르는 게 있으면 꼭! 물어봐주세요. 😘
+        </label>
+      </div>
+    </div>
+
+    <br/><br/>
+
+    <div class="text-center">
+      <button class="button"><strong>회원가입하기</strong></button>
+    </div>
+
+    <br/><br/>
+
+    <div class="text-center">
+      <a href="https://ozcodingschool.com/" class="link">오즈코딩스쿨 홈페이지 구경하기 ></a>
+    </div>
+  </div>
+</body>
+</html>
